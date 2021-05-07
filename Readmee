@@ -1,2 +1,22 @@
 Projet devops :
 
+Palier 1 :
+
+J'ai premièrement crée une application React à l’aide de https://github.com/mars/create-react-app-buildpack.
+Par la suite j'ai fais fonctionné mon application en local.
+Enfin j'ai upload mon projet sur votre github.
+
+Palier 2 :
+
+Dans un premier temps j'ai crée une nouvelle application sur Heroku.
+Puis j'ai mis en place le déploiement continu de mon projet sur Heroku, avec Github Actions, et en ayant désactivé le déploiement automatique d’Heroku. 
+
+Palier 3 :
+
+J'ai crée un fichier DockerFile pour mon projet.
+Ensuite j'ai Push une image ubuntu à la main sur Docker Hub.
+
+Palier 4 :
+
+J'ai essayé de ffaire une CI avec Github Actions qui push le projet automatiquement sur le registre de Heroku ainsi que sur Docker Hub.
+
